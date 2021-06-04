@@ -1,0 +1,217 @@
+
+.head{
+    background-color:yellow;
+    font-size: 14px; 
+    height: 30px;
+    width:auto;
+  }
+  
+  .lyrics{
+    color:dimgray;
+    font-size:17px;
+    padding-top: 5px;
+    margin-left:40%;
+    margin-top:5px;
+  }
+  
+  nav{
+    float:right;
+    text-align:center;
+    padding:14px 12px;
+    text-decoration:none;
+    font-size:16px;
+    background-color:gray;
+    width:1479px;
+    margin-top:-10px;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    clear:left;
+    float:left;
+    position:relative;
+    left:38%;
+  }
+  
+  li{
+  
+    padding-top:2px;
+    padding-bottom:1px;
+    display:inline-block;
+    margin-right:20px;
+    font-size:18px;
+    }
+  
+  a{
+    color:white;
+    text-decoration:none;
+  }
+  
+  .background{
+    width:1479px;
+    height:300px;
+    padding:10px;
+    background-image:url("https://cdn.glitch.com/af50bd64-d73c-474e-9a87-070959d7f715%2Ftalking_heads-speaking_in_tongues.png?v=1570654927493");
+    background-repeat:no-repeat;
+    background-size: 1500px 1000px;
+    background-position: center center;
+  }
+  
+  .inner{
+    height:273px;
+    width:1240px;
+    background-color:black;
+    margin:37px 0 0 120px;
+    opacity:0.8;
+    }
+  
+  .h1{
+    color:yellow;
+    font-size:30px;
+    font-weight:bold;
+    margin: -210px 0 0 170px;
+    position: absolute;
+    text-transform: Uppercase;
+  }
+  
+  .h2{
+    text-transform: Uppercase;
+    position:absolute;
+    color:white;
+    margin: -190px 0 0 170px;
+    font-weight:lighter;
+  }
+  .h3{
+    position: absolute;
+    color:silver;
+    margin: -130px 0 0 170px;
+    font-size: 14px;
+    font-family: Helvetica;  
+  }
+  
+  img{
+    height:200px;
+    width: 200px;
+    position: absolute;
+    margin: -240px 0 0 1150px;
+  }
+  .head1{
+    background-color: yellow;
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 16px;
+    height: 60px;
+    width: 300px;
+    margin: 5px 0 0 1050px;
+  }
+  
+  .about{
+    color:dimgray;
+    margin:22px 0 0 10px;
+    font-size: 18px;
+    text-transform: Uppercase;
+  }
+  
+  .p1{
+    background-color: dimgray;
+    height:680px;
+    width:300px;
+    margin:63px 0 0 1050px;
+    position:absolute;
+  }
+  
+  .para1{
+    color:white;
+    margin: 20px 15px 0 15px;
+    font-family:Helvetica;
+    font-size: 13px;
+  }
+  .para2{
+    color:white;
+    margin: 30px 15px 0 15px;
+    font-family:Helvetica;
+    font-size: 13px;
+  }
+  
+  .block{
+    color:white;
+    margin: 25px 15px 0 30px;
+    font-family:Helvetica;
+    font-size: 13px;
+    display: inline-block;
+  }
+  
+  iframe{
+    margin: 20px;
+    display: inline-block;
+    height:170px;
+    width: 260px;
+    border-top: 4px solid white;
+    padding-top:20px
+  }
+  
+  .same{
+    height:50px;
+    width:100px;
+    background-color:yellow;
+    font-size:16px;
+    margin-top:30px;
+  }
+  
+  .verse{
+    padding-left: 10px;
+    font-family: helvetica;
+    color:dimgray;  
+  }
+  .heading{
+    color:dimgray;
+    font-size:16px;
+    position: absolute;
+    margin-left:10px;
+  }
+  .same1{
+    height:50px;
+    width: 100px;
+    background-color: yellow;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .heading1{
+    color: dimgray;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 10px;
+  }
+  
+  .chorus{
+    margin-bottom: 50px;
+    padding-left: 10px;
+    font-family: Helvetica;
+    color: dimgray;
+  }
+  
+  footer{
+    border-top: 4px solid yellow;
+    padding-top: 10px;
+    font-size: 13px;
+    margin: 0 130px 0 155px;
+  }
+  
+  .container1{
+    border-left: 4px solid yellow;
+    position:relative;
+    margin-left:140px;
+  }
+  
+  .container2{
+    border-left: 4px solid yellow;
+    position:relative;
+    margin-left: 170px;
+  }
+  
+  #ref{
+    color:black;
+  }
