@@ -1,0 +1,841 @@
+body {
+    margin: 0 auto;
+    padding:0;
+    background: linear-gradient(navajowhite 5%, #FF9200);
+    font-family: "Niconne", cursive;
+  }
+  
+  .logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .text {
+    display: none;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #FF9200;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  
+  .navigation > div {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .home {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .label {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    color: black;
+  }
+  .season {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  #toggle:checked + .menu {
+    display: block;
+  }
+  hr {
+    background: linear-gradient(#e1fcff 2.5%, #ffe4e1);
+  }
+  .experience{
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .tasting-hours{
+    display:flex;
+    flex-wrap: wrap;
+    font-family: "Merienda One", cursive;
+    justify-content: center;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    font-size: 26px;
+  }
+  
+  .Hours{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .hoursNote{
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .heading1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Merienda One", cursive;
+    font-size: 40px;
+    color: black;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Niconne", cursive;
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: navajowhite;
+    align-items: center;
+  }
+  .resP,.shopP,.do,.experience{
+  font-size: 25px;
+    padding: 10px;
+  }
+  
+  
+  .company {
+    display: flex;
+    font-family: Verdana;
+    font-weight: 900;
+    font-size: 16px;
+  }
+  
+  .heading2 {
+    font-weight: 900;
+    font-size: 26px;
+  }
+  
+  .operations {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .time {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  
+  .text1 {
+    display: none;
+  }
+  
+  .map {
+    display: none;
+  }
+  
+  .story {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merienda One", cursive;
+    font-size: 30px;
+  }
+  .origins {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Merienda One", cursive;
+    font-size: 20px;
+    justify-content: center;
+  }
+  .stories {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    font-family: "Niconne", cursive;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .top-image {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    background-position: center center;
+  }
+  .barrelsBox {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .centered {
+    display: flex;
+    font-family: "Niconne", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+  }
+  
+  .find {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Merienda One", cursive;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .chef {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .bottle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "Merienda One", cursive;
+    font-size: 25px;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    margin-left: 10px;
+  }
+  
+  .link a {
+    color: blue;
+  }
+  
+  .tap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: "Niconne", cursive;
+  }
+  
+  .pre {
+    font-family: "Niconne", cursive;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+  }
+  .contactBody{
+    display: flex;
+    flex-wrap:wrap;
+    width:100%;
+  }
+  .directionBody{
+    width:100%;
+  }
+  .beer-bottle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -5px;
+  }
+  
+  .heading3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Merienda One", cursive;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  }
+  .Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  span {
+    color: purple;
+    font-size: 20px;
+  }
+  .beeers {
+    font-size: 25px;
+  }
+  
+  .beer-description {
+    align-items: space-around;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .bottlediv {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  hr {
+    height: 20px;
+    background: #fff3e1;
+  }
+  
+  .store {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Niconne", cursive;
+    font-size: 30px;
+  }
+  .storeTitle {
+    width: 100%;
+  }
+  .contactBody{
+    padding: 10px;
+  }
+  .direction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Merienda One", cursive;
+    font-size: 25px;
+  }
+  
+  .restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Merienda One", cursive;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  
+  button {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    background-color: #FF9200;
+    border: none;
+    color: firebrick;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 1),
+      5px 5px 5px rgba(255, 250, 205, 0.6);
+    font-size: 30px;
+    font-family: "Merienda One", cursive;
+  }
+  
+  .name {
+    padding: 3px;
+    font-size: 18px;
+    font-family: "Merienda One", cursive;
+  }
+  
+  .email {
+    padding: 3px;
+    font-size: 18px;
+    font-family: "Merienda One", cursive;
+  }
+  .subject {
+    padding: 3px;
+    font-size: 18px;
+    font-family: "Merienda One", cursive;
+  }
+  .subject {
+    padding: 3px;
+    font-family: "Merienda One", cursive;
+    font-size: 18px;
+  }
+  
+  .message {
+    padding: 3px;
+    font-family: "Merienda One", cursive;
+    font-size: 18px;
+  }
+  .ontapTitle{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  input {
+    background: honeydew;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+  }
+  .popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input:focus {
+    background: white;
+  }
+  
+  textarea {
+    background: honeydew;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+  }
+  
+  textarea:focus {
+    background: white;
+  }
+  
+  .close {
+    float: right;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .residence {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Merienda One", cursive;
+    justify-content: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .canning {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .program {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Merienda One", cursive;
+  }
+  
+  .residency {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  .current {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-family: "Merienda One", cursive;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .artist {
+    font-size: 25px;
+    font-family: "Merienda One", cursive;
+    text-align: center;
+  }
+  .link1 a {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: blue;
+  }
+  .past {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .time1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  
+  .bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .website {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  
+  .courtesy {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .imageGlasses {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    background-image: url("https://cdn.glitch.com/de231269-9af2-4f09-a326-fe73d308a34e%2FBeers.jpg?v=1573054820418");
+  }
+  .beerGlasses {
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+  }
+  .hidden a{
+    display:none;
+  }
+  .slider{
+    display:none;
+  }
+  
+  /*desktop changes*/
+  @media screen and (min-width: 800px) {
+     body {
+      background: mistyrose;
+      padding: 0;
+      margin:0;
+      
+    }
+   .map {
+      display: block;
+    }
+    .hidden a{
+      display:block;
+    }
+    .logo {
+      width: 100%;
+      height: 500px;
+      margin: -50px 0 0 0;
+    }
+     .container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 400px;
+    }
+      footer {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: ghostwhite;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+   .label {
+      display: none;
+    }
+    
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+  
+    .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      width: 100%;
+      background: azure;
+      height: 100px;
+      overflow: hidden;
+      box-shadow: 12px 1px 12px 10px rgba(0, 0, 0, 0.4);
+    }
+    
+    .menuButton {
+      font-size: 30px;
+    }
+    .overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: lavender;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: 0.5s ease;
+    }
+    
+    .container:hover .overlay {
+      bottom: -100%;
+      top: 0;
+      height: 100%;
+    }
+    
+    .text {
+      white-space: nowrap;
+      color: black;
+      font-size: 70px;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-content: center;
+      top: 50%;
+      left: 50%;
+      font-family: "Sacramento", cursive;
+      font-weight: bold;
+      text-shadow: 3px 3px 3px rgba(255, 255, 255, 1),
+        10px 10px 10px rgba(0, 0, 0, 0.4);
+    }
+    
+    .story {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      font-family: "Merienda One", cursive;
+      font-size: 50px;
+      text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    }
+    
+    .menuButton:hover {
+      opacity: 0.4;
+      background: #e1fcff;
+    }
+    .chef {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 600px;
+    }
+    
+    hr {
+      height: 20px;
+      background: linear-gradient(#ffe4e1 2.5%,#e1fcff);
+    }
+    
+    .contactBody {
+      display: flex;
+      flex-wrap: wrap;
+      
+      width:100%;
+    }
+    
+    .store,
+    .storeTitle {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .ontapTitle{    
+      text-align: center;
+    }
+    
+    .restaurantBody,
+    .formBody,
+    .onTap{
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .restaurantBody,
+    .ontapBody{
+      text-align: center;
+      font-size: 25px;
+    }
+    
+    .pre {
+      font-size: 25px;
+    }
+    .directionBody {
+      width: 25%;
+      padding:10px
+    }
+    
+    .directionTitle {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .heading3 {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 20px;
+      justify-content: center;
+      font-family: "Merienda One", cursive;
+      text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    }
+    
+  
+    .beeers {
+      font-size: 30px;
+    }
+    
+    span {
+      font-size: 30px;
+    }
+    .beer-description {
+      font-size: 25px;
+    }
+    .residence {
+      font-size: 50px;
+    }
+    .program {
+      font-size: 30px;
+    }
+  
+    .residency {
+      font-size: 30px;
+    }
+    .current {
+      font-size: 50px;
+    }
+    
+    .artist {
+      font-size: 30px;
+    }
+    .time1 {
+      font-size: 30px;
+    }
+    .link1 a {
+      font-size: 24px;
+    }
+    .courtesy {
+      font-size: 30px;
+    }
+    .website{
+      font-size: 30px;
+    }
+    .chris{
+      background: white;
+    }
+    .company{
+    
+      font-size: 24px;
+    }
+    .address{
+      font-size:22px;
+    }
+    .do{
+      font-size: 35px;
+    }
+    .topP,
+    .schedule,
+    .resP,
+    .shopP,
+    .experience,
+    .work,
+    .hoursNote{
+      width:100%;
+      font-size: 30px;
+    }
+    .time{
+      width:100%;
+      text-align:center;
+      font-size: 25px;
+    }
+    .find{
+      font-size: 50px;
+      font-family:'Merienda One', cursive;
+      text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    }
+    .find1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 34px;
+      font-weight: bold;
+      
+    }
+    .name,.email,.subject,.message{
+      font-size: 20px;
+    }
+    input,textarea{
+      padding: 20px;
+    }
+    .tasting-hours{
+   
+    font-size: 40px;
+  }
+    .Hours{
+  
+    font-size: 30px;
+  }
+    .slider {
+      width: 1024px;
+      margin: 2em auto;
+      display:block;
+      
+  }
+  
+  .slider-wrapper {
+      width: 100%;
+      height: 400px;
+      position: relative;
+  }
+  
+  .slide {
+      float: left;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 3s linear;
+  }
+  
+  .slider-wrapper > .slide:first-child {
+      opacity: 1;
+  }
+  
+  }
+  
