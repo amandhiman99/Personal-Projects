@@ -1,0 +1,137 @@
+.container{
+    width: 830px;
+    height:537px;
+    margin: 200px;
+    overflow: hidden;
+    position:relative;
+    background-color:aliceblue;
+    padding: 10px;
+  }
+  
+  .circle{
+    position:absolute;
+    height: 536px;
+    width: 829px;
+  }
+  
+  .c1{
+    height:260px;
+    width:260px;
+    background-color: deepskyblue ;
+    border-radius: 50%;
+    position:absolute;
+    margin: -130px 0 0 -90px; 
+    box-shadow: 10px -20px 200px deepskyblue;
+  }
+   
+  .c2{
+    height: 120px;
+    width: 120px;
+    background-color: gold;
+    border-radius: 50%;
+    position:absolute;
+    margin:70px 0 0 600px ;
+    box-shadow: 10px -18px 100px gold;
+  }
+  
+  .c3{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:lightgreen;
+    position: absolute;
+    margin: 360px 0 0 10px;
+    box-shadow: 8px 20px 70px lightgreen;
+  }
+  
+  .c4{
+    height: 270px;
+    width:270px;
+    border-radius:50%;
+    background-color:midnightblue;
+    margin:425px 0 0 670px;
+    position: absolute;
+    box-shadow: 20px 20px 300px midnightblue
+      
+  }
+  
+  .c5{
+    height: 110px;
+    width:110px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    margin:400px 0 0 430px; 
+    box-shadow: 19px 10px 200px aquamarine;
+  }
+  
+  .container1{
+    height:300px;
+    width: 520px;
+    padding: 10px;
+    position: absolute;
+    opacity: 0.4;
+    background-color:snow;
+    margin:130px 0 0 130px;
+    border-top: 10px solid darkturquoise;
+  }
+  
+  
+  .about{
+    font-size: 30px;
+    font-family:Courier New;
+    margin: 70px 0  0 140px;
+    position: absolute;
+    font-weight: bold;
+  }
+  
+  .name{ 
+    font-size: 20px;
+    position: absolute;
+    margin: 100px 0 0 140px;
+    font-family: Lucida Console;
+    color: dimgray; 
+  }
+  
+    
+  .me{
+    margin: -590px 0 0 450px;
+    position: absolute;
+    font-size: 29px;
+    font-weight:bold;
+  }
+  
+  .designation{
+    margin:15px 0 0 100px ;
+  }
+  
+  .stats{
+    margin-left:30px;
+  }
+  
+  .image{
+    height:100px;
+    width: 110px;
+    margin: -480px 0 0 250px;
+    position: absolute;
+    border:10px solid white;
+  }
+  
+  img{ 
+  height: 100px;
+  width: 110px; 
+  }
+  
+  .image2{
+    height:100px;
+    width:110px;
+    margin:-480px 0 0 750px;
+    position: absolute;  
+  }
+  
+  .contact{
+    font-size: 10px;
+    color:black;
+    margin:25px 0 0 430px;
+  }
+    
