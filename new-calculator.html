@@ -1,0 +1,150 @@
+﻿<!doctype html>
+
+<html lang = "en">
+
+    <head>
+        <meta charset = "utf-8"/>
+        <title> A simple Javascript Calculator</title>
+        <style>
+            input { margin:1rem; padding:1rem; font-size:1rem}
+            button{ margin:0.7rem; padding:0.7rem; font-size:0.7rem}
+            .result-container { margin:1rem 0;padding:1rem 0; font-size:1rem 0}
+            #result { font-size:2rem;}
+
+        </style>
+    </head>
+
+    <body>
+
+        A<input id="value-a" maxlength="10" type="text">
+        B<input id="value-b" maxlength="10" type="text">
+
+        <div>
+            <button onclick="OnFloorA()">Floor of A</button>
+            <button onclick="OnCeiling()">On Ceiling</button>
+            <button onclick="OnRoundA()">On Round A</button>
+            <button onclick="OnConversionErrorAB()">On Conversion Error A+B</button>
+            <button onclick="MaximumInteger()">Maximum Integer</button>
+            <button onclick="MinimumInteger()">Minimum Integer</button>
+            <button onclick="MaximumValue()">Maximum Value</button>
+            <button onclick="MinimumValue()">Minimum Value</button>
+            <button onclick="RandomNumber()">Random Number</button>
+
+        </div>
+
+        <div class="result-container">
+            Result<div id="result"></div>
+        </div>
+
+        <script>
+            console.log("script");
+            ///
+            function OnFloorA() {
+
+                //Collect the values from the input boxes.
+                let A = parseFloat(document.getElementById("value-a").value);
+
+                //Calculate the floor of A;
+                let Result = Math.floor(A);
+
+                //Update the <div> element reserved to display  the result.
+                document.getElementById("result").innerHTML = Result;
+            }
+
+            //
+            function OnCeiling() {
+
+                 //Collect the values from the input boxes.
+                 let A = parseFloat(document.getElementById("value-a").value);
+
+                //Calculate the Round A;
+                 let Result = Math.ceil(A);
+
+                //Update the <div> element reserved to display  the result.
+                 document.getElementById("result").innerHTML = Result;
+            }
+
+            //
+            function OnRoundA() {
+                 //Collect the values from the input boxes.
+                 let A = parseFloat(document.getElementById("value-a").value);
+
+                //Calculate the Round A.
+                 let Result = Math.round(A);
+
+                //Update the <div> element reserved to display  the result.
+                 document.getElementById("result").innerHTML = Result;
+            }
+
+            function OnConversionErrorAB() {
+                 //Collect the values from the input boxes.
+                 let A = parseFloat(document.getElementById("value-a").value);
+                 let B = parseFloat(document.getElementById("value-b"),value);
+
+                //Calculate the conversion error;
+                 let Result = Math.conversionerror(A+B);
+
+                //Update the <div> element reserved to display  the result.
+                 document.getElementById("result").innerHTML = Result;
+
+            }
+
+            function MaximumInteger(){
+                  //Collect the values from the input boxes.
+                 let A = parseFloat(document.getElementById("value-a").value);
+                 let B = parseFloat(document.getElementById("value-b").value);
+
+                  //Calculates the maximum value between A and B.
+                  let Result = Number.MAX_SAFE_INTEGER;
+
+                  //Update the <div> element reserved to display  the result.
+                  document.getElementById("result").innerHTML = Result;
+            }
+
+            function MinimumInteger() {
+                  //Collect the values from the input boxes.
+                 let A = parseFloat(document.getElementById("value-a").value);
+                 let B = parseFloat(document.getElementById("value-b").value);
+
+                  //Calculates the minimum value between A and B.
+                let Result = Number.MIN_SAFE_INTEGER;
+
+                //Update the <div> element reserved to display  the result.
+                 document.getElementById("result").innerHTML = Result;
+
+            }
+
+            function MaximumValue() {
+                //Get the maximum value of number that javascript can store
+                let Result = Number.MAX_VALUE;
+
+                //Update the <div> element reserved to display  the result.
+                 document.getElementById("result").innerHTML = Result;
+
+            }
+
+            function MinimumValue(){
+
+                //Collect the values from the input boxes.
+                let A = parseFloat(document.getElementById("value-a").value);
+
+               //Calculate the Round A.
+                 let Result = Number.MIN_VALUE;
+
+               //Update the <div> element reserved to display  the result.
+                document.getElementById("result").innerHTML = Result;
+            }
+
+            function RandomNumber() {
+                //Collect the values from the input boxes.
+                let A = parseFloat(document.getElementById("value-a").value);
+
+               //Calculate the ;
+                 let Result = Math.random();
+
+               //Update the <div> element reserved to display  the result.
+                document.getElementById("result").innerHTML = Result;
+            }
+        </script>
+    </body>
+</html>
