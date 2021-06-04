@@ -1,0 +1,13 @@
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\bin\Debug\Coffee House.exe.config
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\bin\Debug\Coffee House.exe
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\bin\Debug\Coffee House.pdb
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee House.csprojAssemblyReference.cache
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee_House.Coffee.resources
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee_House.CoffeeShop.resources
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee_House.Properties.Resources.resources
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee House.csproj.GenerateResource.cache
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee House.csproj.CoreCompileInputs.cache
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee House.exe
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee House.pdb
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee_House.Donut.resources
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Coffee House\Coffee House\obj\Debug\Coffee_House.Container.resources

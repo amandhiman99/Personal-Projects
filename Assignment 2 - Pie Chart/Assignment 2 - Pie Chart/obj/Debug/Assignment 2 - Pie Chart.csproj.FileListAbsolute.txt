@@ -1,0 +1,11 @@
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\bin\Debug\Assignment 2 - Pie Chart.exe.config
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\bin\Debug\Assignment 2 - Pie Chart.exe
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\bin\Debug\Assignment 2 - Pie Chart.pdb
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment 2 - Pie Chart.csprojAssemblyReference.cache
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment_2___Pie_Chart.PieChart.resources
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment_2___Pie_Chart.PieChartCreation.resources
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment_2___Pie_Chart.Properties.Resources.resources
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment 2 - Pie Chart.csproj.GenerateResource.cache
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment 2 - Pie Chart.csproj.CoreCompileInputs.cache
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment 2 - Pie Chart.exe
+C:\Assignments\Term 3\SODV2101-Rapid Application Development\Assignment 2 - Pie Chart\Assignment 2 - Pie Chart\obj\Debug\Assignment 2 - Pie Chart.pdb
