@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Curriculum-Vitae</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Condiment&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Charmonman&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="cheatsheet">
+      CSS Cheatsheet
+    </div>
+    <div class="container">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle" />
+      <div class="menu">
+        <div>
+          <a href="index.html">Home</a>
+        </div>
+        <div>
+          <a href="#about">About </a>
+        </div>
+        <div>
+          <a href="#experience">Experience</a>
+        </div>
+        <div>
+          <a href="#education">Education</a>
+        </div>
+        <div>
+          <a href="html-cheatsheet.html">HTML Cheatsheet</a>
+        </div>
+        <div>
+          <a href="css-cheatsheet.html">CSS Cheatsheet</a>
+        </div>
+        <div>
+          <a href="blogs.html">Blogs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex8">
+      <div class="heading">
+        CSS-Basics
+      </div>
+      <div class="definition">
+        It is the basics about the CSS, its syntax and how to use it in HTML.
+        Click <button class="popup" id="popup3">here</button> to see more.
+      </div>
+      <div class="basics" id="basics">
+        <button class="close" id="close3">
+          X
+        </button>
+
+        <div class="basics_definition">
+          <div class="syntax">
+            Syntax
+          </div>
+          <div>
+            <span class="property">selector</span>{ <br />
+            <span class="property">property1:</span> value; <br />
+            <span class="property">property2:</span> value2; }
+          </div>
+          <div class="syntax">
+            Include external css file
+          </div>
+          <div class="syntax_definition">
+            <div>
+              This shows how to add a external css file into the HTML webpage.
+            </div>
+            <div>
+              <span>&lt;link</span> rel = "stylesheet" type ="text/css" href
+              ="/style.css" <span>/&gt;</span>
+            </div>
+            <div class="syntax">
+              Internal Styles
+            </div>
+            <div>
+              <span>&lt;style</span> type = "text/css"<span>&gt;</span> <br />
+              div {color:#444; } <br />
+              <span>&lt;/stle&gt;</span>
+            </div>
+            <div class="syntax">
+              Inline Style
+            </div>
+            <div>
+              <span>&lt;tag</span> style = "propert: value"<span>&gt;</span>
+              <span>&lt;/tag&gt;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex9">
+      <div class="heading">
+        Selectors
+      </div>
+      <div class="definition">
+        Selectors are patterns used to select the elements we want to style.
+        Some of them are <button class="popup" id="popup4">here</button>
+      </div>
+
+      <div class="basics" id="selectors">
+        <button class="close" id="close4">
+          X
+        </button>
+
+        <div class="selectors_definition">
+          <div class="syntax">
+            *
+          </div>
+
+          <div>
+            It selects all the elements present in the HTML
+          </div>
+
+          <div class="syntax">
+            div
+          </div>
+          <div>
+            It selects all the div tag present in the HTML to style
+          </div>
+          <div class="syntax">
+            div,p
+          </div>
+
+          <div>
+            It selects all the div tags and paragraph tags to style
+          </div>
+          <div class="syntax">
+            div p
+          </div>
+          <div>
+            It selects all the paragraph tags inside the HTML to style
+          </div>
+
+          <div class="syntax">
+            div + p
+          </div>
+          <div>
+            It selects all the p tags immediately after the div tags to style.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex10">
+      <div class="heading">
+        CSS -Properties
+      </div>
+      <div class="definition">
+        It is the list of properites used in the CSS to style the content. Some
+        of them are <button class="popup" id="popup5">here</button>
+      </div>
+      <div class="basics" id="properties">
+        <button class="close" id="close5">
+          X
+        </button>
+
+        <div class="properties_definition">
+          <div class="syntax">
+            align-content
+          </div>
+          <div>
+            It is the behavior of the flex-wrap property
+          </div>
+          <div class="syntax">
+            align-items
+          </div>
+          <div>
+            It is for the alignment of items inside the container
+          </div>
+          <div class="syntax">
+            animation
+          </div>
+          <div>
+            It binds an animation to an element
+          </div>
+          <div class="syntax">
+            animation-delay
+          </div>
+          <div>
+            It delays the start of the animation
+          </div>
+          <div class="syntax">
+            background
+          </div>
+          <div>
+            It defines all the background properties as once.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/script1.js" defer></script>
+</html>

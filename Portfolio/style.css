@@ -1,0 +1,457 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    background-color: mistyrose;
+  }
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    height: 400px;
+    min-width: 100%;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    font-size: 100px;
+    color: GhostWhite;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(128, 0, 128, 1),
+      10px 10px 10px rgba(240, 255, 240, 1);
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+    background: orangered;
+  }
+  
+  .container > div {
+    font-size: 35px;
+    font-family: "Charmonman", cursive;
+    font-weight: 900;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  label {
+    margin-left: 40px;
+    font-size: 26px;
+    display: none;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    color: white;
+    background-color: rgba(255, 69, 0, 0.8);
+    text-align: center;
+  }
+  #toggle {
+    display: none;
+  }
+  @media only screen and (max-width: 800px) {
+    label {
+      display: block;
+      cursor: pointer;
+    }
+    .menu {
+      text-align: center;
+      display: none;
+    }
+    .menu a {
+      display: block;
+      margin: 0;
+    }
+    #toggle:checked + .menu {
+      display: block;
+    }
+    .text {
+      margin-top: 100px;
+    }
+  }
+  
+  li {
+    list-style-type: none;
+    font-size: 24px;
+  }
+  
+  li:before {
+    content: "\00BB\0020";
+  }
+  .about {
+    display: flex;
+    font-family: Brush Script MT;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  
+  .flex1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    min-width: 100%;
+    opacity: 0.8;
+  }
+  
+  .description {
+    font-size: 30px;
+    font-family: "Condiment", cursive;
+    font-weight: 300;
+    margin-left: 30px;
+  }
+  
+  .experience {
+    font-size: 45px;
+    font-family: "Lobster", cursive;
+    padding: 10px 10px;
+    margin-left: 30px;
+  }
+  
+  .flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .title1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  
+  .time {
+    font-size: 26px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    align-self: flex-end;
+  }
+  
+  .company {
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+  
+  .title2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  
+  .place {
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+  .flex3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .education {
+    font-size: 45px;
+    font-family: "Lobster", cursive;
+    padding: 10px 10px;
+    margin-left: 30px;
+  }
+  
+  .grade12 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .school {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+  
+  .grade10 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  
+  .years {
+    font-size: 26px;
+    align-self: flex-end;
+    font-family: "Lobster", cursive;
+    margin-left: 30px;
+  }
+  
+  span {
+    color: DarkBlue;
+    font-weight: 600;
+  }
+  
+  .cheatsheet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Courgette", cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px rgba(0, 255, 255, 1);
+  }
+  
+  .popup {
+    border: none;
+    background-color: mistyRose;
+    font-size: 26px;
+    color: indigo;
+    font-weight: bold;
+  }
+  
+  #elements {
+    display: none;
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 60px;
+    font-family: "Cookie", cursive;
+  }
+  .definition {
+    margin: 10px 15px;
+    font-size: 24px;
+  }
+  
+  .close {
+    border: none;
+    background-color: slategray;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin: 1px;
+  }
+  
+  .block {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .elements_definition {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .attributes_definition {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .basic {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .form_defintion {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .structure {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  table {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+  
+  tr {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  th {
+    font-size: 30px;
+  }
+  
+  td {
+    font-size: 26px;
+    margin-right: 15px;
+    float: left;
+  }
+  
+  th,
+  td,
+  tr {
+    padding: 10px;
+  }
+  
+  .attributes {
+    display: none;
+    background-color: antiquewhite;
+  }
+  
+  .forms { 
+    display: none;
+    background-color: antiquewhite;
+  }
+  
+  .syntax {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .basics_definition {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .selectors_definition {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .properties_definition {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .property {
+    font-weight: bold;
+    color: black;
+  }
+  .flex4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex6 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .table {
+    align-self: center;
+  }
+  .basics {
+    display: none;
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+  
+  .flex8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flex9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flex10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex11{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    background: papayawhip;
+   
+  }
+  .blog{
+    font-family: 'Cookie',cursive;
+     font-size:80px;
+    text-align: center;
+  
+  }
+  
+  .box1{
+    font-size: 30px;
+    font-weight:800;
+    text-align: center;
+  }
+  
+  .blog1{
+    font-size: 24px;
+  }
+  
+  .box2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .blog2{
+    font-size: 24px;
+  }

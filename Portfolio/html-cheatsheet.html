@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Curriculum-Vitae</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Condiment&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Charmonman&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's javascript file -->
+  </head>
+  <body>
+    <div class="cheatsheet">
+      HTML Cheatsheet
+    </div>
+
+    <div class="container">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle" />
+      <div class="menu">
+        <div>
+          <a href="index.html">Home</a>
+        </div>
+        <div>
+          <a href="#about">About </a>
+        </div>
+        <div>
+          <a href="#experience">Experience</a>
+        </div>
+        <div>
+          <a href="#education">Education</a>
+        </div>
+        <div>
+          <a href="html-cheatsheet.html">HTML Cheatsheet</a>
+        </div>
+        <div>
+          <a href="css-cheatsheet.html">CSS Cheatsheet</a>
+        </div>
+        <div>
+          <a href="blogs.html">Blogs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex4">
+      <div class="heading">
+        HTML Elements
+      </div>
+      <div class="definition">
+        The HTML elements consist of a starting tag and if the elements contain
+        some content then it ends with a closing tag. There are many type of
+        HTML elements some of them are listed
+        <button class="popup" id="popup">here</button>
+      </div>
+
+      <div class="elements" id="elements">
+        <button class="close" id="close">
+          X
+        </button>
+
+        <div class="block">
+          Block Elements:
+        </div>
+
+        <div class="elements_definition">
+          <span>&lt;div&gt;</span> It creates a new division in the webpage
+          <span>&lt;/div&gt;</span> <br />
+          <span>&lt;p&gt;</span> It makes a new paragraph
+          <span>&lt;/p&gt;</span> <br />
+          <span>&lt;h1&gt;</span> It creates a heading in the webpage
+          <span>&lt;/h1&gt;</span> <br />
+          <span>&lt;ul&gt;</span> It creates an unordered list
+          <span>&lt;/ul&gt;</span> <br />
+          <span>&lt;ol&gt;</span> It creates a ordered list
+          <span>&lt;ol&gt;</span> <br />
+        </div>
+
+        <div class="block">
+          Inline-Elements:
+        </div>
+        <div class="elements_definition">
+          <span>&lt;em&gt;</span> It emphasise on the text
+          <span>&lt;/em&gt;</span> <br />
+          <span>&lt;strong&gt;</span> It bolds the text
+          <span>&lt;/strong&gt;</span> <br />
+          <span>&lt;sup&gt;</span> It defines the superscript text.<span
+            >&lt;/sup&gt;</span
+          >
+          <br />
+          <span>&lt;sub&gt;</span> It defines the subscript text.
+          <span>&lt;/sub&gt;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex5">
+      <div class="heading">
+        HTML Attributes
+      </div>
+      <div class="definition">
+        The HTML Attributes give a desired element additional information to
+        either modify the elements functionality or provide functionality. Some
+        them are listed <button class="popup" id="popup1">here</button>
+      </div>
+
+      <div class="attributes" id="attributes">
+        <button class="close" id="close1">
+          X
+        </button>
+
+        <div class="attributes_definition">
+          <div class="block">href Attribute</div>
+          <div>
+            It adds a link into your webpage.
+          </div>
+          <span>&lt;a</span> href = "type the link here " <span>&gt;</span>
+
+          <div class="block">
+            src Attribute
+          </div>
+          <div>
+            This attribute adds an image to the webpage.
+          </div>
+          <span>&lt;img</span> src = "image name or link" <span>&gt;</span>
+          <div class="block">
+            The lang Attribute
+          </div>
+          <div>
+            It Determines the language of the document. It is done in the html
+            tag
+          </div>
+          <span>&lt;html</span>lang ="any language" <span>&gt;</span>
+          <div class="block">
+            The style Attribute
+          </div>
+          <div>
+            The style attibute is used to specify the styling of the element.
+          </div>
+          <span>&lt;p</span> style = "any attributes here" <span>/p&gt;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex6">
+      <div class="heading">
+        HTML Basic Structure
+      </div>
+      <div class="basic">
+        The basic structure of HTML is as follows: <br />
+
+        <span>&lt;</span>!DOCTYPE html <span>&gt;</span> <br />
+        <span> &lt;html&gt;</span> <br />
+        <span> &lt;head&gt;</span> <br />
+        some content here ..... <br />
+        <span>&lt;/head&gt;</span> <br />
+        <span>&lt;body&gt;</span> <br />
+        This where all of the content will go and will show on the webpage
+        <br />
+        <span>&lt;/body&gt;</span> <br />
+        <span>&lt;/html&gt;</span> <br />
+      </div>
+    </div>
+
+    <div class="flex7">
+      <div class="heading">
+        HTML Forms
+      </div>
+
+      <div class="definition">
+        These elements help us design forms using the tags. Some of them are
+        <button class="popup" id="popup2">here</button>
+      </div>
+      <div class="forms" id="forms">
+        <button class="close" id="close2">X</button>
+        <div class="form_definition">
+          <div class="structure">
+            <span>&lt;form&gt;</span> <br />
+            . <br />
+            Form Elements <br />
+            . <br />
+            <span>&lt;/form&gt;</span>
+          </div>
+
+          <div>
+            <div class="block">
+              Input Element
+            </div>
+            <div class="structure  ">
+              The <span>&lt;input&gt;</span> Element <br />
+              The input element is the most important form element. It can be
+              displayed in several types.
+            </div>
+          </div>
+          <div>
+            <div class="table">
+              <table>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+                <tr>
+                  <td>
+                    <span>&lt;input</span> type = "text" <span>&gt;</span>
+                  </td>
+                  <td>It defines one line text input field</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span>&lt;input</span> type = "radio"<span>&gt;</span>
+                  </td>
+                  <td>It defines a button to select from many choices</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span>&lt;input</span> type= "submit"<span>&gt;</span>
+                  </td>
+                  <td>It defines a submit button</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js" defer></script>
+</html>
